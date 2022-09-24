@@ -4,6 +4,7 @@
 
 ## API endpoints
 <sub>*Uses JWT authentication.  
+All methods are only accessible by logged in users.  
 Methods in bold are only accessible by admins.*</sub>
 
 ### User endpoints 
@@ -68,7 +69,7 @@ git clone https://github.com/stealacamera/diary-api.git
 2. **Create and activate a virtual environment**
 ```
 virtualenv <venv name>
-<venv name>/Scripts/activate
+<venv name>\Scripts\activate
 ```
 3. **Install the dependencies**
 ```
