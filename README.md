@@ -63,7 +63,7 @@ Methods in bold are only accessible by admins.*</sub>
 ## Installation
 1. **Clone the repo**
 ```
-git clone https://github.com/stealacamera/book-quotes-api.git
+git clone https://github.com/stealacamera/diary-api.git
 ```
 2. **Create and activate a virtual environment**
 ```
