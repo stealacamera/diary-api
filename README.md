@@ -4,17 +4,18 @@
 
 ## API endpoints
 <sub>*Uses JWT authentication.  
-All methods are only accessible by logged in users.  
-Methods in bold are only accessible by admins.*</sub>
+Methods in italic are accessible without authentication.  
+Methods in bold are only accessible by admins.  
+All other methods are only accessible by logged in users.*</sub>
 
 ### User endpoints 
 `http://localhost:5000/account/`
 | Endpoint  | HTTP methods | Description |
 | --- | --- | --- |
-| `register/` | `POST` |
+| `register/` | *`POST`* |
 | `change-password/` | `POST` | Updates password & blacklists current refresh token |
 | `token-refresh/` | `POST` |
-| `login/` | `POST` | Enter username & password to log in |
+| `login/` | *`POST`* | Enter username & password to log in |
 | `logout/` | `POST` | Blacklists current refresh token |
 | `profile/` | `GET` | Get logged-in user's profile |
 | `profiles/` | **`GET`** | Get all registered profiles |
