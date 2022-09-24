@@ -1,0 +1,13 @@
+asgiref==3.5.2
+async-timeout==4.0.2
+Deprecated==1.2.13
+Django==4.1.1
+djangorestframework==3.13.1
+djangorestframework-simplejwt==5.2.0
+packaging==21.3
+PyJWT==2.5.0
+pyparsing==3.0.9
+pytz==2022.2.1
+sqlparse==0.4.2
+tzdata==2022.2
+wrapt==1.14.1
