@@ -17,7 +17,7 @@ All other methods are only accessible by logged in users.*</sub>
 | `token-refresh/` | `POST` |
 | `login/` | *`POST`* | Enter username & password to log in |
 | `logout/` | `POST` | Blacklists current refresh token |
-| `profile/` | `GET` | Get logged-in user's profile |
+| `profile/` | `GET` `POST` | Get logged-in user's profile and be able to change username |
 | `profiles/` | **`GET`** | Get all registered profiles |
 | `profiles/<int:pk>/` | **`GET`** |
 
