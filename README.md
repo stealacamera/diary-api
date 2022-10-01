@@ -21,12 +21,12 @@ All other methods are only accessible by logged in users.*</sub>
 | `profiles/` | **`GET`** | Get all registered profiles |
 | `profiles/<int:pk>/` | **`GET`** |
 
-### Quotes endpoints
+### Diary endpoints
 `http://localhost:5000/`
 | Endpoint  | HTTP methods | Description |
 | --- | --- | --- |
 | ` ` | `GET` `POST` | Get list of diary entries |
-| `<pk>/` | `GET` `PUT` `PATCH` `DELETE` |
+| `<int:pk>/` | `GET` `PUT` `PATCH` `DELETE` |
 | `pinned/` | `GET` | Get list of pinned entries (`pinned` attribute is write only) |
 | `pinned/<int:pk>/` | `GET` `PUT` `PATCH` `DELETE` |
 | `trash/` | `GET` | Get list of trashed entries (`deleted` attribute is write only) (entries older than 30 days are deleted) |
